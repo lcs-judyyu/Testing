@@ -14,7 +14,7 @@ grid-template-rows: repeat(26, minmax(30px, 1fr));
 
 .box {
 color: black;
-border: .1px dodgerblue solid;
+/* border: .1px dodgerblue solid; */
 }
 
 /* containers */
@@ -254,9 +254,11 @@ font-weight: 500;
 }
 
 #between-ingredients-line {
-border-left: 1px solid grey;
-height: 200px;
+border-left: 3px solid hsla(0, 0%, 50%, 0.4);
+height: 400px;
 position: absolute;
+left: 500px;
+
 }
 
 /* section i frosting ingredients */
