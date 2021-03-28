@@ -3,13 +3,13 @@ box-sizing: border-box;
 display: grid;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
 .grid {
 display: grid;
 border: 1px purple solid;
-min-width: 1000px;
+min-width: 1300px;
 height: 7500px;
-grid-template-columns: 1000px;
+grid-template-columns: 1300px;
 grid-template-rows: repeat(50, 150px);
  }
 
@@ -76,7 +76,7 @@ grid-template-rows: repeat(26, minmax(30px, 1fr));
 
 .box {
 color: black;
-border: .1px dodgerblue solid;
+/* border: .1px dodgerblue solid; */
 }
 
 /* containers */
@@ -253,7 +253,7 @@ overflow: hidden;
 }
 
 #profile:hover {
-border: 3px solid hsla(14, 65%, 45%, 1);
+border: 2px solid hsla(14, 65%, 45%, 1);
 }
 
 h3#attribution {
@@ -349,18 +349,48 @@ border: none;
 /* section e steps */
 
 #step-title {
-margin-left: 20px;
+margin-left: 25px;
 margin-bottom: 0;
 }
 
-ol.steps li,
-.step p{
+ol.steps li {
 font-family: 'PT Sans', serif;
 list-style-position: outside;
 display: list-item;
+margin-bottom: 8px;
+margin-top: 0;
+}
+
+.step p {
+font-family: 'PT Sans', serif;
+margin-left: 25px;
+margin-top: 0;
+display: inline-block;
+}
+
+.step p strong {
+display: inline;
+margin-right: 4px;
+}
+
+.step {
+padding-right: 10px;
+border: 2px inset hsla(14, 65%, 45%, 0.5);
+background-color: hsla(60, 56%, 91%, 0.2);
+border-radius: 5px;
+margin: 5px 0px 10px 30px;
+color: hsl(0, 0%, 10%);
 }
 
 /*section h copyright*/
+
+hr#below-footer-line.solid {
+border-top: 100px solid hsla(0, 0%, 73%, 0.5);
+width: auto;
+position: absolute;
+top: 1000px;
+left: 0;
+}
 
 #meredith {
 width: 8%;
