@@ -76,7 +76,7 @@ grid-template-rows: repeat(26, minmax(30px, 1fr));
 
 .box {
 color: black;
-/* border: .1px dodgerblue solid; */
+border: .1px dodgerblue solid;
 }
 
 /* containers */
@@ -160,9 +160,11 @@ display: none;
 
 /* section a header */
 header {
-position: static;
 background-color: hsla(19, 63%, 50%, 0.4);
 box-shadow: 0px 8px hsla(0, 0%, 53%, 0.3);
+/* position: sticky;
+top: 0;
+z-index: 3; */
 }
 
 #mainlogo {
@@ -226,8 +228,8 @@ border-radius: 1px;
 border: none;
 border-top: 3px solid hsla(14, 65%, 45%, 0.3);
 width: 100%;
-position: absolute;
-top: 98px;
+position: relative;
+bottom: 620%;
 }
 
 /* section b heading */
@@ -393,6 +395,30 @@ background-color: hsla(60, 56%, 91%, 0.1);
 border-radius: 5px;
 margin: 5px 0px 10px 30px;
 color: hsl(0, 0%, 10%);
+}
+
+/* section f see other */
+
+aside {
+display: inline-block;
+}
+
+.see-other img{
+width: 28%;
+margin-left: auto;
+display: flex;
+flex-direction: column;
+float: right;
+}
+
+a#other {
+width: 700px;
+display: flex;
+margin: 0;
+}
+
+.see-other {
+margin-bottom: 50px;
 }
 
 /* section g footer */
