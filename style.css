@@ -167,12 +167,15 @@ top: 0;
 z-index: 3; */
 }
 
+#mainlogo-link {
+position: relative;
+bottom: 59px;
+}
+
 #mainlogo {
 width: 200px;
 display: block;
 margin: auto;
-position: relative;
-bottom: 59px;
 }
 
 nav img{
@@ -424,8 +427,8 @@ margin-bottom: 50px;
 }
 
 .see-other img:hover {
-border-left: 5px groove hsla(14, 65%, 45%, 0.5);
-border-right: 5px groove hsla(14, 65%, 45%, 0.5);
+border-left: 8px groove hsla(14, 65%, 45%, 0.5);
+border-right: 8px groove hsla(14, 65%, 45%, 0.5);
 border-radius: 1px;
 border-spacing: 5px;
 opacity: 0.7;
@@ -440,6 +443,33 @@ width: 100%;
 position: relative;
 bottom: 4%;
 }
+
+#logo-website>#footer-logo {
+width: 8%;
+clear: both;
+margin: 0 auto;
+}
+
+#logo-website {
+position: relative;
+bottom: 60%;
+}
+
+.learn-more h4{
+line-height: 8px;
+margin: 0;
+}
+
+footer h3 {
+font-family: 'Carter One', serif;
+color: hsla(0, 0%, 0%, 0.85);
+}
+
+footer h4 {
+font-family: 'Public Sans', serif;
+font-size: 14px;
+}
+
 
 /*section h copyright*/
 
