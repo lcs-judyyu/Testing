@@ -409,6 +409,8 @@ margin-left: auto;
 display: flex;
 flex-direction: column;
 float: right;
+border-left: 5px groove transparent;
+border-right: 5px groove transparent;
 }
 
 a#other {
@@ -419,6 +421,14 @@ margin: 0;
 
 .see-other {
 margin-bottom: 50px;
+}
+
+.see-other img:hover {
+border-left: 5px groove hsla(14, 65%, 45%, 0.5);
+border-right: 5px groove hsla(14, 65%, 45%, 0.5);
+border-radius: 1px;
+border-spacing: 5px;
+opacity: 0.7;
 }
 
 /* section g footer */
