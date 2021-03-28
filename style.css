@@ -458,6 +458,7 @@ bottom: 35%;
 .learn-more h3 {
 position: relative;
 bottom: 50%;
+margin-left: 30%;
 }
 
 .learn-more h4{
@@ -471,22 +472,24 @@ bottom: 50px;
 #customer-service {
 position: relative;
 right: 1px;
+width: fit-content;
 }
 
 #apps {
 position: relative;
 left: 34px;
+width: fit-content;
 }
 
 #site-maps {
 position: relative;
 left: 17px;
+width: fit-content;
 }
 
 footer h3 {
 font-family: 'Carter One', serif;
 color: hsla(0, 0%, 20%, 1);
-margin-left: 30%;
 }
 
 footer h4 {
@@ -494,15 +497,35 @@ font-family: 'Public Sans', serif;
 font-size: 13px;
 }
 
+.contact-us {
+margin-left: 63%;
+margin-bottom: 0;
+position: relative;
+bottom: 187px;
+}
+
 footer .subscribe-icons img {
 border-radius: 50%;
-width: 20px;
-height: 20px;
+width: 25px;
+height: 25px;
 margin: 10px;
 }
 
 .subscribe-icons {
 display: inline-flex;
+}
+
+#icon {
+position: relative;
+right: 36px;
+bottom: 7px;
+}
+
+#subscribe {
+position: relative;
+left: 17px;
+bottom: 5px;
+width: fit-content;
 }
 
 /*section h copyright*/
