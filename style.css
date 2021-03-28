@@ -76,7 +76,7 @@ grid-template-rows: repeat(26, minmax(30px, 1fr));
 
 .box {
 color: black;
-border: .1px dodgerblue solid;
+/* border: .1px dodgerblue solid; */
 }
 
 /* containers */
@@ -288,7 +288,7 @@ font-size: 18px;
 #browniesimage {
 border-radius: 5px;
 width: 95%;
-transition: .4s ease;
+transition: .2s ease;
 margin-left: 15px;
 }
 
@@ -441,7 +441,7 @@ border: none;
 border-top: 2px solid hsla(14, 65%, 45%, 0.3);
 width: 100%;
 position: relative;
-bottom: 4%;
+bottom: 50%;
 }
 
 #logo-website>#footer-logo {
@@ -497,8 +497,17 @@ font-family: 'Public Sans', serif;
 font-size: 13px;
 }
 
+#footer-center-line {
+border-left: 1px solid hsl(0, 0%, 60%);
+border-radius: 1px;
+height: 130px;
+position: absolute;
+left: 712px;
+top: 1065px;
+}
+
 .contact-us {
-margin-left: 63%;
+margin-left: 62%;
 margin-bottom: 0;
 position: relative;
 bottom: 187px;
