@@ -187,7 +187,7 @@ overflow: hidden;
 }
 
 #profile:hover {
-  
+border: 3px solid hsla(14, 65%, 45%, 1);
 }
 
 h3#attribution {
@@ -231,6 +231,18 @@ transform: translate(-50%, -50%)
 } */
 
 /* section d ingredients */
+.container {
+width: auto;
+border: 1px solid grey;
+display: inline-flex;
+}
+
+.flex {
+height: auto;
+width: auto;
+border: 1px solid turquoise;
+display: inline-block;
+}
 
 #ingredient {
 margin-right: 8px;
@@ -273,7 +285,7 @@ font-family: 'PT Sans', serif;
 /*copyright*/
 
 #meredith {
-width: 10%;
+width: 8%;
 margin: 0px auto;
 margin-bottom: 20px;
 }
