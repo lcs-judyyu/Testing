@@ -3,6 +3,10 @@ box-sizing: border-box;
 display: grid;
 }
 
+@media screen {{
+min-width: 1000px
+}
+
 .grid {
 display: grid;
 border: .1px black solid;
@@ -14,7 +18,7 @@ grid-template-rows: repeat(26, minmax(30px, 1fr));
 
 .box {
 color: black;
-/* border: .1px dodgerblue solid; */
+border: .1px dodgerblue solid;
 }
 
 /* containers */
@@ -62,7 +66,7 @@ grid-area: 6 / 3 / 14 / 4;
 background-color: hsla(60, 56%, 91%, 0.5); 
 }
 
-/*links*/
+/* links */
 a {
 color: brown;
 display: inline;
@@ -87,12 +91,11 @@ text-decoration: underline;
 /* fonts */
 #ingredient,
 #step-title,
-.step strong,
 #frosting{
-  font-family: 'Merriweather', serif;
+font-family: 'Merriweather', serif;
 }
 
-/* header */
+/* section a header */
 header {
 position: static;
 background-color: hsla(19, 63%, 50%, 0.4);
@@ -156,7 +159,7 @@ border: 1px solid hsl(0, 0%, 60%);
 border-radius: 1px;
 }
 
-/* heading section b  */
+/* section b heading */
 .b {
 background-color: hsla(60, 56%, 91%, 0.5);
 }
@@ -243,22 +246,23 @@ margin-left: 10px;
 }
 
 .list p {
-visibility: visible;
+visibility: hidden;
+margin: 0;
 }
 
 .item, div.item>input, div.item>label {
 display: inline-block;
 font-family: "Source Sans Pro", serif;
-margin-bottom: 8px;
+margin-bottom: 10px;
 font-weight: 500;
 }
 
 #between-ingredients-line {
-border-left: 3px solid hsla(0, 0%, 50%, 0.4);
-height: 400px;
+border-left: 1px solid hsla(0, 0%, 50%, 0.4);
+height: 325px;
 position: absolute;
-left: 500px;
-
+left: 72%;
+top: 56%;
 }
 
 /* section i frosting ingredients */
@@ -266,7 +270,7 @@ left: 500px;
 .frosting-item, div.frosting-item>input, div.frosting-item>label {
 display: inline-block;
 font-family: "Source Sans Pro", serif;
-margin-bottom: 8px;
+margin-bottom: 10px;
 font-weight: 500;
 }
 
@@ -276,8 +280,8 @@ margin: 50px 8px 1px 10px;
 }
 
 .frosting-list p {
-visibility: visible;
-margin-top: 40px;
+visibility: hidden;
+margin: 0;
 }
 
 fieldset {
@@ -288,14 +292,17 @@ border: none;
 
 #step-title {
 margin-left: 20px;
+margin-bottom: 0;
 }
 
-ol.steps li{
-display: inline;
+ol.steps li,
+.step p{
 font-family: 'PT Sans', serif;
+list-style-position: outside;
+display: list-item;
 }
 
-/*copyright*/
+/*section h copyright*/
 
 #meredith {
 width: 8%;
