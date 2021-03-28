@@ -49,10 +49,12 @@ background-color: hsla(60, 56%, 91%, 0.5);
 
 .g {
 grid-area: 21 / 1 / 25 / span 2;
+background-color: hsla(132, 9%, 89%, 0.8);
 }
 
 .h {
 grid-area: 25 / 1 / span 2 / span 2;
+background-color:white;
 }
 
 /*links*/
@@ -79,7 +81,9 @@ text-decoration: underline;
 
 /* fonts */
 #ingredient,
-#step-title {
+#step-title,
+.step strong,
+#frosting{
   font-family: 'Merriweather', serif;
 }
 
@@ -182,6 +186,10 @@ margin-right: 10px;
 overflow: hidden;
 }
 
+#profile:hover {
+  
+}
+
 h3#attribution {
 position: relative;
 left: 91%;
@@ -208,42 +216,85 @@ opacity: 0.4;
 float: left;
 }
 
-#watch {
+/* #watch {
 width: 21%;
 border-radius: 4px;
 position: absolute;
 z-index: 2;
 float: left;
-}
+} */
 
-#brownies-figure:hover #watch {
+/* #brownies-figure:hover #watch {
 left: 50%;
 top: 50%;
 transform: translate(-50%, -50%)
-}
-
-/* .ingredient input,
-.list {
-display: inline-flex;
-
-}
-
-.list>[type="checkbox"] {
-  margin-right: 8px;
-}
-
-.ingredient {
-  margin-right: 8px;
 } */
 
-.list p {
-visibility: hidden
+/* section d ingredients */
+
+#ingredient {
+margin-right: 8px;
+margin-left: 10px;
 }
+
+.list p {
+visibility: visible;
+}
+
+.item, div.item>input, div.item>label {
+display: inline-block;
+font-family: "Source Sans Pro", serif;
+margin-bottom: 8px;
+font-weight: 500;
+}
+
+.frosting-item, div.frosting-item>input, div.frosting-item>label {
+display: inline-block;
+font-family: "Source Sans Pro", serif;
+margin-bottom: 8px;
+font-weight: 500;
+}
+
+fieldset {
+border: none;
+}
+
+/* section e steps */
 
 #step-title {
-margin-left: 20px
+margin-left: 20px;
 }
 
-.steps {
-  font-family: 'PT Sans';
+ol.steps li{
+display: inline;
+font-family: 'PT Sans', serif;
+}
+
+/*copyright*/
+
+#meredith {
+width: 10%;
+margin: 0px auto;
+margin-bottom: 20px;
+}
+
+.copyright {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+}
+
+.copyright p {
+font-family: Lato;
+font-size: 13px;
+justify-content: center;
+margin: 0 auto;
+display: inline-flex;
+margin-bottom: 25px;
+letter-spacing: .5px;
+}
+
+.copyright p>a {
+margin-left: 2px;
 }
