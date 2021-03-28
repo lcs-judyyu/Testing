@@ -452,24 +452,58 @@ margin: 0 auto;
 
 #logo-website {
 position: relative;
-bottom: 60%;
+bottom: 35%;
+}
+
+.learn-more h3 {
+position: relative;
+bottom: 50%;
 }
 
 .learn-more h4{
-line-height: 8px;
-margin: 0;
+line-height: 12px;
+margin-left: 30%;
+margin-bottom: 0;
+position: relative;
+bottom: 50px;
+}
+
+#customer-service {
+position: relative;
+right: 1px;
+}
+
+#apps {
+position: relative;
+left: 34px;
+}
+
+#site-maps {
+position: relative;
+left: 17px;
 }
 
 footer h3 {
 font-family: 'Carter One', serif;
-color: hsla(0, 0%, 0%, 0.85);
+color: hsla(0, 0%, 20%, 1);
+margin-left: 30%;
 }
 
 footer h4 {
 font-family: 'Public Sans', serif;
-font-size: 14px;
+font-size: 13px;
 }
 
+footer .subscribe-icons img {
+border-radius: 50%;
+width: 20px;
+height: 20px;
+margin: 10px;
+}
+
+.subscribe-icons {
+display: inline-flex;
+}
 
 /*section h copyright*/
 
