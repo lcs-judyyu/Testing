@@ -3,7 +3,7 @@ box-sizing: border-box;
 display: grid;
 }
 
-@media (max-width: 1300px) {
+/* @media (max-width: 1300px) {
 .grid {
 display: grid;
 border: 1px purple solid;
@@ -63,12 +63,12 @@ grid-row: 47 / 49;
 grid-column: 1 / span 1;
 }
 
-}
+} */
 
 .grid {
 display: grid;
 border: .1px black solid;
-width: auto;
+min-width: 1424px;
 height: 1300px;
 grid-template-columns: 2fr, 1fr, 1fr;
 grid-template-rows: repeat(26, minmax(30px, 1fr));
@@ -153,6 +153,11 @@ text-decoration: underline;
 font-family: 'Merriweather', serif;
 }
 
+/* head */
+head {
+display: none;
+}
+
 /* section a header */
 header {
 position: static;
@@ -215,6 +220,14 @@ display: inline-flex;
 bottom: 130px;
 border: 1px solid hsl(0, 0%, 60%);
 border-radius: 1px;
+}
+
+#below-header-line.solid {
+border: none;
+border-top: 3px solid hsla(14, 65%, 45%, 0.3);
+width: 100%;
+position: absolute;
+top: 98px;
 }
 
 /* section b heading */
@@ -319,8 +332,8 @@ font-weight: 500;
 border-left: 1px solid hsla(0, 0%, 50%, 0.4);
 height: 325px;
 position: absolute;
-left: 72%;
-top: 56%;
+left: 1040px;
+top: 310px;
 }
 
 /* section i frosting ingredients */
@@ -376,20 +389,30 @@ margin-right: 4px;
 .step {
 padding-right: 10px;
 border: 2px inset hsla(14, 65%, 45%, 0.5);
-background-color: hsla(60, 56%, 91%, 0.2);
+background-color: hsla(60, 56%, 91%, 0.1);
 border-radius: 5px;
 margin: 5px 0px 10px 30px;
 color: hsl(0, 0%, 10%);
 }
 
+/* section g footer */
+
+#above-footer-line.solid {
+border: none;
+border-top: 2px solid hsla(14, 65%, 45%, 0.3);
+width: 100%;
+position: relative;
+bottom: 4%;
+}
+
 /*section h copyright*/
 
 hr#below-footer-line.solid {
-border-top: 100px solid hsla(0, 0%, 73%, 0.5);
-width: auto;
-position: absolute;
-top: 1000px;
-left: 0;
+border: none;
+border-top: 1px solid hsla(0, 0%, 73%, 0.6);
+width: 100%;
+position: relative;
+bottom: 4%;
 }
 
 #meredith {
