@@ -76,7 +76,7 @@ grid-template-rows: repeat(26, minmax(30px, 1fr));
 
 .box {
 color: black;
-/* border: .1px dodgerblue solid; */
+border: .1px dodgerblue solid;
 }
 
 /* containers */
@@ -105,7 +105,7 @@ background-color: hsla(60, 56%, 91%, 0.5);
 }
 
 .f {
-grid-area: 14 / 2 / 21 / span 2;
+grid-area: 14 / 3 / 21 / span 1;
 background-color: hsla(60, 56%, 91%, 0.5);
 }
 
@@ -121,6 +121,11 @@ background-color:white;
 
 .i {
 grid-area: 6 / 3 / 14 / 4; 
+background-color: hsla(60, 56%, 91%, 0.5); 
+}
+
+.j {
+grid-area: 14 / 2 / 21 / span 1;
 background-color: hsla(60, 56%, 91%, 0.5); 
 }
 
@@ -149,7 +154,8 @@ text-decoration: underline;
 /* fonts */
 #ingredient,
 #step-title,
-#frosting{
+#frosting,
+.nutrition h3{
 font-family: 'Merriweather', serif;
 }
 
@@ -408,6 +414,38 @@ margin: 5px 0px 10px 30px;
 color: hsl(0, 0%, 10%);
 }
 
+/* section j nutrition */
+
+.nutrition h3 {
+margin-left: 15px; 
+margin-bottom: 0;
+width: fit-content;
+height: fit-content;
+}
+
+.nutrition #chart {
+width: 25px;
+position: relative;
+}
+
+.nutrition figure {
+width: fit-content;
+height: fit-content;
+position: relative;
+left: 130px;
+    bottom: 88px;
+}
+
+.nutrition article {
+width: 300px;
+margin-left: 15px; 
+}
+
+.nutrition article {
+display: inline;
+font-family: 'PT Sans', sans-serif;
+}
+
 /* section f see other */
 
 aside {
@@ -415,19 +453,19 @@ display: inline-block;
 }
 
 .see-other img{
-width: 28%;
+width: 100%;
 margin-left: auto;
 display: flex;
 flex-direction: column;
-float: right;
 border-left: 5px groove transparent;
 border-right: 5px groove transparent;
 }
 
 a#other {
-width: 700px;
+width: 260px;
 display: flex;
 margin: 0;
+margin-left: auto;
 }
 
 .see-other {
