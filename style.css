@@ -76,7 +76,7 @@ grid-template-rows: repeat(26, minmax(30px, 1fr));
 
 .box {
 color: black;
-border: .1px dodgerblue solid;
+/* border: .1px dodgerblue solid; */
 }
 
 /* containers */
@@ -417,7 +417,7 @@ color: hsl(0, 0%, 10%);
 /* section j nutrition */
 
 .nutrition h3 {
-margin-left: 15px; 
+margin-left: 5px; 
 margin-bottom: 0;
 width: fit-content;
 height: fit-content;
@@ -425,20 +425,42 @@ height: fit-content;
 
 .nutrition #chart {
 width: 25px;
-position: relative;
 }
 
 .nutrition figure {
 width: fit-content;
 height: fit-content;
 position: relative;
-left: 130px;
-    bottom: 88px;
+left: 120px;
+bottom: 43px;
 }
 
-.nutrition article {
-width: 300px;
-margin-left: 15px; 
+.nutrition article p {
+width: 200px;
+margin-right: auto;
+padding: 5px;
+border: 2px solid hsla(14, 65%, 45%, 0.7);
+background-color: hsla(14, 65%, 45%, 0.2);
+text-align: center;
+border-radius: 4px;
+position: relative;
+bottom: 55px;
+}
+
+.nutrition article p:hover {
+background-color: hsla(14, 65%, 45%, 0.4);
+}
+
+.nutrition article h4 {
+position: relative;
+margin-left: 5px;
+bottom: 66px;
+margin-bottom: 5px;
+}
+
+.nutrition {
+position: relative;
+left: 95px;
 }
 
 .nutrition article {
