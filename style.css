@@ -337,7 +337,7 @@ margin-left: 10px;
 }
 
 figure #spoon {
-width: 25px;
+width: 28px;
 }
 
 figure#spoon-icon {
@@ -345,7 +345,7 @@ width: fit-content;
 height: fit-content;
 position: relative;
 left: 130px;
-bottom: 60px;
+bottom: 65px;
 }
 
 .list {
@@ -403,6 +403,23 @@ margin-left: 25px;
 margin-bottom: 0;
 }
 
+figure #clock {
+width: 30px;
+}
+
+figure#clock-icon {
+width: fit-content;
+height: fit-content;
+position: relative;
+bottom: 45px;
+left: 65px;
+}
+
+.step article {
+position: relative;
+bottom: 50px;
+}
+
 ol.steps li {
 font-family: 'PT Sans', sans-serif;
 list-style-position: outside;
@@ -430,6 +447,7 @@ background-color: hsla(60, 56%, 91%, 0.1);
 border-radius: 5px;
 margin: 5px 0px 10px 30px;
 color: hsl(0, 0%, 10%);
+height: 290px;
 }
 
 /* section j nutrition */
