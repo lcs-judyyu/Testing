@@ -501,7 +501,7 @@ border-left: 5px groove transparent;
 border-right: 5px groove transparent;
 }
 
-a#other {
+a.other {
 width: 260px;
 display: flex;
 margin: 0;
@@ -610,7 +610,7 @@ margin: 10px;
 display: inline-flex;
 }
 
-#icon {
+.icon {
 position: relative;
 right: 36px;
 bottom: 7px;
