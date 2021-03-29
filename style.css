@@ -196,7 +196,8 @@ top: 10px;
 }
 
 nav#rightnav {
-font-size: 18px;
+font-size: 14px;
+font-family: "Merriweather", serif;
 width: 150px;
 display: inline-flex;
 position: relative;
@@ -238,7 +239,7 @@ border: none;
 border-top: 3px solid hsla(14, 65%, 45%, 0.3);
 width: 100%;
 position: relative;
-bottom: 620%;
+bottom: 600%;
 }
 
 /* section b heading */
@@ -333,6 +334,23 @@ opacity: 1;
 #ingredient {
 margin-right: 8px;
 margin-left: 10px;
+}
+
+figure #spoon {
+width: 25px;
+}
+
+figure#spoon-icon {
+width: fit-content;
+height: fit-content;
+position: relative;
+left: 130px;
+bottom: 60px;
+}
+
+.list {
+position: relative;
+bottom: 50px;
 }
 
 .list p {
