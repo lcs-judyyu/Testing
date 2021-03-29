@@ -290,6 +290,7 @@ border-radius: 5px;
 width: 95%;
 transition: .2s ease;
 margin-left: 15px;
+opacity: 1;
 }
 
 #browniesimage:hover  {
@@ -300,19 +301,26 @@ opacity: 0.4;
 float: left;
 }
 
-/* #watch {
-width: 21%;
+#watch-button {
+width: 155px;
+height: 100px;
 border-radius: 4px;
-position: absolute;
-z-index: 2;
-float: left;
-} */
+position: relative;
+left: 277px;
+bottom: 255px;
+z-index: -1;
+}
 
-/* #brownies-figure:hover #watch {
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%)
-} */
+#watch {
+visibility: hidden;
+opacity: 0;
+}
+
+#browniesimage:hover .middle {
+visibility: visible;
+z-index: 2;
+opacity: 1;
+}
 
 /* section d ingredients */
 
