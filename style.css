@@ -67,11 +67,11 @@ grid-column: 1 / span 1;
 
 .grid {
 display: grid;
-border: .1px black solid;
+/* border: .1px black solid; */
 min-width: 1424px;
 height: 1300px;
 grid-template-columns: 2fr, 1fr, 1fr;
-grid-template-rows: repeat(26, minmax(30px, 1fr));
+grid-template-rows: repeat(27, minmax(30px, 1fr));
 }
 
 .box {
@@ -110,12 +110,12 @@ background-color: hsla(60, 56%, 91%, 0.5);
 }
 
 .g {
-grid-area: 21 / 1 / 25 / span 3;
+grid-area: 22 / 1 / 26 / span 3;
 background-color: hsla(132, 9%, 89%, 0.8);
 }
 
 .h {
-grid-area: 25 / 1 / span 2 / span 3;
+grid-area: 26 / 1 / span 2 / span 3;
 background-color:white;
 }
 
@@ -126,6 +126,11 @@ background-color: hsla(60, 56%, 91%, 0.5);
 
 .j {
 grid-area: 14 / 2 / 21 / span 1;
+background-color: hsla(60, 56%, 91%, 0.5); 
+}
+
+.k {
+grid-area: 21 / 1 / span 1 / span 3; 
 background-color: hsla(60, 56%, 91%, 0.5); 
 }
 
@@ -239,7 +244,7 @@ border: none;
 border-top: 3px solid hsla(14, 65%, 45%, 0.3);
 width: 100%;
 position: relative;
-bottom: 600%;
+bottom: 621%;
 }
 
 /* section b heading */
@@ -294,7 +299,7 @@ font-size: 18px;
 /* section c image */
 #browniesimage {
 border-radius: 5px;
-width: 95%;
+width: 93%;
 transition: .2s ease;
 margin-left: 15px;
 opacity: 1;
@@ -308,14 +313,14 @@ opacity: 0.4;
 float: left;
 }
 
-#watch-button {
+#watch {
 width: 155px;
 height: 100px;
 border-radius: 4px;
 position: relative;
 left: 277px;
 bottom: 255px;
-z-index: -1;
+z-index: 2;
 }
 
 #watch {
@@ -442,12 +447,13 @@ margin-right: 4px;
 
 .step {
 padding-right: 10px;
+padding-bottom: 20px;
 border: 2px inset hsla(14, 65%, 45%, 0.5);
 background-color: hsla(60, 56%, 91%, 0.1);
 border-radius: 5px;
-margin: 5px 0px 10px 30px;
+margin: 5px 0px 0px 30px;
 color: hsl(0, 0%, 10%);
-height: 290px;
+height: 305px;
 }
 
 /* section j nutrition */
@@ -496,7 +502,8 @@ margin-bottom: 5px;
 
 .nutrition {
 position: relative;
-left: 95px;
+left: 135px;
+op: 23px;
 }
 
 .nutrition article {
@@ -556,18 +563,20 @@ margin: 0 auto;
 
 #logo-website {
 position: relative;
-bottom: 35%;
+bottom: 25%;
+}
+
+.learn-more {
+margin-left: 25%
 }
 
 .learn-more h3 {
 position: relative;
 bottom: 50%;
-margin-left: 30%;
 }
 
 .learn-more h4{
 line-height: 12px;
-margin-left: 30%;
 margin-bottom: 0;
 position: relative;
 bottom: 50px;
@@ -602,16 +611,16 @@ font-size: 13px;
 }
 
 #footer-center-line {
-border-left: 1px solid hsl(0, 0%, 60%);
+border-left: 1px solid hsl(0, 0%, 65%);
 border-radius: 1px;
-height: 130px;
+height: 110px;
 position: absolute;
 left: 712px;
-top: 1065px;
+top: 1080px;
 }
 
 .contact-us {
-margin-left: 62%;
+margin-left: 67%;
 margin-bottom: 0;
 position: relative;
 bottom: 187px;
