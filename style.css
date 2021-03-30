@@ -368,36 +368,6 @@ display: inline-block;
 font-family: "Source Sans Pro", sans-serif;
 margin-bottom: 10px;
 font-weight: 500;
-cursor: pointer;
-}
-
-.list input {
-position: absolute;
-opacity: 0;
-cursor: pointer;
-}
-
-input#a,
-input#b,
-input#c,
-input#d,
-input#e,
-input#f,
-input#g,
-input#h {
-height: 14px;
-width: 14px;
-margin-right: 5px;
-position: absolute;
-top: 0;
-left: 0;
-border-radius: 50%;
-background-color: #eee;
-/* border: none; */
-}
-
-.list input:hover {
-border: 1px solid hsla(14, 65%, 45%, 1);
 }
 
 #between-ingredients-line {
