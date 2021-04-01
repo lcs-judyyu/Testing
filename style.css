@@ -258,6 +258,19 @@ font-size: 50px;
 margin-left: 80px;
 }
 
+figure #rating-stars {
+width: 58px;
+}
+
+figure#rating-stars {
+width: fit-content;
+height: fit-content;
+position: relative;
+display: inline-block;
+left: 130px;
+bottom: 65px;
+}
+
 .b h5 {
 font-size: 15px;
 position: relative;
@@ -478,7 +491,7 @@ bottom: 43px;
 }
 
 .nutrition article p {
-width: 200px;
+width: 180px;
 margin-right: auto;
 padding: 5px;
 border: 2px solid hsla(14, 65%, 45%, 0.7);
@@ -487,6 +500,7 @@ text-align: center;
 border-radius: 4px;
 position: relative;
 bottom: 55px;
+margin-bottom: 30px;
 }
 
 .nutrition article p:hover {
@@ -496,19 +510,31 @@ background-color: hsla(14, 65%, 45%, 0.5);
 .nutrition article h4 {
 position: relative;
 margin-left: 5px;
-bottom: 66px;
+bottom: 59px;
+right: 80px;
 margin-bottom: 5px;
 }
 
 .nutrition {
 position: relative;
-left: 135px;
-top: 23px;
+left: 125px;
+top: 68px;
 }
 
 .nutrition article {
 display: inline;
 font-family: 'PT Sans', sans-serif;
+}
+
+.nutrition .first-three-nutritions {
+position: relative;
+right: 85px;
+}
+
+.nutrition .last-three-nutritions {
+position: relative;
+left: 113px;
+bottom: 247px;
 }
 
 /* section f see other */
@@ -522,8 +548,8 @@ width: 100%;
 margin-left: auto;
 display: flex;
 flex-direction: column;
-border-left: 5px groove transparent;
-border-right: 5px groove transparent;
+border-left: 5px solid hsl(14, 65%, 45%);
+border-right: 5px solid hsl(14, 65%, 45%);
 }
 
 a.other {
@@ -535,6 +561,17 @@ margin-left: auto;
 
 .see-other {
 margin-bottom: 50px;
+z-index: 2;
+}
+
+img#chocolate1 {
+border-top: 5px solid hsl(14, 65%, 45%);
+border-radius: 4px;
+}
+
+img#chocolate5 {
+border-bottom: 5px solid hsl(14, 65%, 45%);
+border-radius: 4px;
 }
 
 .see-other img:hover {
